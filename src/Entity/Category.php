@@ -19,7 +19,6 @@ class Category
     #[ORM\Column(type: 'string', length: 255)]
     private ?string $slug;
 
-
     // for tests
     public function setId(?int $id): self
     {
